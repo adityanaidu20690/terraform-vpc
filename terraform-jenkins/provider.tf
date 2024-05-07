@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     bucket = "hkhcoder-vpro-addyarts"
     region = "us-east-1"
-    key    = "dev/terraform.tfstate"
+    key    = "jenkins/terraform.tfstate"
 
 
   }
